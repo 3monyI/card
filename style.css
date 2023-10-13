@@ -1,3 +1,24 @@
-}
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+    border: Grey 10px;
+}
+.card {
+    width:350px;
+    min-height: 230px;
+    border-bottom: 4px solid #006aff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:16px
+}
+.space {
+    min-height: 50px;
+    width:100%;
+    margin:2px;
+    display:flex;
+    disp ;
+    justify-content: space-between;
+}
